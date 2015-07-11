@@ -1,0 +1,7 @@
+#!/usr/bin/env python3
+
+import colors as c
+
+print(c.clear + c.green + "Hi, what's your name?")
+name = input("--> ")
+print(c.clear + c.green + "Well, " + c.red + name + c.green + " nice to meet you.")
